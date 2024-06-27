@@ -16,9 +16,9 @@ public class BootstrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-//        BankAccount eric= new BankAccount(123,"Eric C",100);
-//        bankRepository.save(eric);
-//        BankAccount michael= new BankAccount(123,"Michael",100);
-//        bankRepository.save(michael);
+        BankAccount eric= new BankAccount(123,"Eric C",100);
+        bankRepository.save(eric);
+        BankAccount michael= new BankAccount(123,"Michael",100);
+        bankRepository.save(michael);
     }
 }
